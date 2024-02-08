@@ -1,0 +1,15 @@
+E:\WPF\Konvertator\Konvertator\bin\Debug\Konvertator.exe.config
+E:\WPF\Konvertator\Konvertator\bin\Debug\Konvertator.exe
+E:\WPF\Konvertator\Konvertator\bin\Debug\Konvertator.pdb
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.csproj.AssemblyReference.cache
+E:\WPF\Konvertator\Konvertator\obj\Debug\MainWindow.g.cs
+E:\WPF\Konvertator\Konvertator\obj\Debug\App.g.cs
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator_MarkupCompile.cache
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator_MarkupCompile.lref
+E:\WPF\Konvertator\Konvertator\obj\Debug\MainWindow.baml
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.g.resources
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.Properties.Resources.resources
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.csproj.GenerateResource.cache
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.csproj.CoreCompileInputs.cache
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.exe
+E:\WPF\Konvertator\Konvertator\obj\Debug\Konvertator.pdb

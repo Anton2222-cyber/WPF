@@ -1,0 +1,17 @@
+﻿<Window x:Class="ComboBoxWithPicture.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxWithPicture"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="645.6">
+    <Grid Name="gr">
+        <ComboBox x:Name="MyComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="txt_box" HorizontalAlignment="Left" Height="23" Margin="236,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="add_item" Content="Add Item" HorizontalAlignment="Left" Margin="408,0,0,0" VerticalAlignment="Top" Width="75" Click="add_item_Click"/>
+        <Button x:Name="delete_item" Content="Delete Item" HorizontalAlignment="Left" Margin="515,0,0,0" VerticalAlignment="Top" Width="75" Click="delete_item_Click_1"/>
+
+    </Grid>
+   
+</Window>

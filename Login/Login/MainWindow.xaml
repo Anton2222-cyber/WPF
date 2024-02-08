@@ -1,0 +1,21 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240.734" Width="433.393" Background="Black">
+
+    <Window.Resources>
+
+    </Window.Resources>
+
+    <Grid>
+        <Border BorderBrush="White"  CornerRadius="20"  BorderThickness="2" HorizontalAlignment="Left" Height="47" Margin="136,106,0,0" VerticalAlignment="Top" Width="267"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
+        <TextBox Height="27" Margin="136,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Background="Black" HorizontalAlignment="Left" Width="267" SelectionBrush="Black"/>
+
+
+    </Grid>
+</Window>

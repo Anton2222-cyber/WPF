@@ -1,0 +1,456 @@
+﻿<Window x:Class="KeyboardTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyboardTrainer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Grid Background="Black">
+        <Grid Margin="10,455,822.6,65.4" Background="Black">
+
+            <Border Name="shift" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label  HorizontalAlignment="Center" VerticalAlignment="Center" Content="Shift" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="10,400,856.6,120.4" Background="Black">
+
+            <Border Name="capslock" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="CapsLock" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="10,345,888.6,175.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9" Margin="-1,0,0,0">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Tab" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="10,290,922.6,230.4" Background="Black">
+
+            <Border Name="tilda" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="~" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="76,290,856.6,230.4" Background="Black">
+
+            <Border Name="oklick" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="!" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="142,290,790.6,230.4" Background="Black">
+
+            <Border Name="dog" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="@" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="208,290,724.6,230.4" Background="Black">
+
+            <Border Name="grate" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="#" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="274,290,658.6,230.4" Background="Black">
+
+            <Border Name="dolar" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="$" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="340,290,592.6,230.4" Background="Black">
+
+            <Border Name="persent" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="%" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="406,290,526.6,230.4" Background="Black">
+
+            <Border Name="pov_my" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="^" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="472,290,460.6,230.4" Background="Black">
+
+            <Border Name="and" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="&amp;" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="538,290,394.6,230.4" Background="Black">
+
+            <Border Name="star" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="*" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="604,290,328.6,230.4" Background="Black">
+
+            <Border Name="left_dyga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="(" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="670,290,262.6,230.4" Background="Black">
+
+            <Border Name="right_dyga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content=")" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="736,290,196.6,230.4" Background="Black">
+
+            <Border Name="lower_" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="_" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="802,290,130.6,230.4" Background="Black">
+
+            <Border Name="plus" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="+" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="868,290,9.6,230.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Backspace" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="110,345,822.6,175.4" Background="Black">
+
+            <Border Name="Q" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Q" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="176,345,756.6,175.4" Background="Black">
+
+            <Border Name="W" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="W" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="242,345,690.6,175.4" Background="Black">
+
+            <Border Name="E" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="E" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="308,345,624.6,175.4" Background="Black">
+
+            <Border Name="R" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="R" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="374,345,558.6,175.4" Background="Black">
+
+            <Border Name="T" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="T" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="440,345,492.6,175.4" Background="Black">
+
+            <Border Name="Y" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Y" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="506,345,426.6,175.4" Background="Black">
+
+            <Border Name="U" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="U" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="572,345,360.6,175.4" Background="Black">
+
+            <Border Name="I" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="I" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="638,345,294.6,175.4" Background="Black">
+
+            <Border Name="O" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="O" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="704,345,228.6,175.4" Background="Black">
+
+            <Border Name="P" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="P" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="770,345,162.6,175.4" Background="Black">
+
+            <Border Name="left_figure_dyga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{}{" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="836,345,96.6,175.4" Background="Black">
+
+            <Border Name="right_figure_dyga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="}" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="902,345,9.6,175.4" Background="Black">
+
+            <Border Name="line" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="|" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="142,400,790.6,120.4" Background="Black">
+
+            <Border Name="A" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="A" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="208,400,724.6,120.4" Background="Black">
+
+            <Border Name="S" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="S" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="274,400,658.6,120.4" Background="Black">
+
+            <Border Name="D" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="D" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="340,400,592.6,120.4" Background="Black">
+
+            <Border Name="F" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="F" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="406,400,526.6,120.4" Background="Black">
+
+            <Border Name="G" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="G" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="472,400,460.6,120.4" Background="Black">
+
+            <Border Name="H" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="H" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="538,400,394.6,120.4" Background="Black">
+
+            <Border Name="J" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="J" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="604,400,328.6,120.4" Background="Black">
+
+            <Border Name="K" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="K" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="670,400,262.6,120.4" Background="Black">
+
+            <Border Name="L" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="L" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="736,400,196.6,120.4" Background="Black">
+
+            <Border Name="two_points" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content=":" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="802,400,130.6,120.4" Background="Black">
+
+            <Border Name="lapki" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="&quot;" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="868,400,9.6,120.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enter" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="176,455,756.6,65.4" Background="Black">
+
+            <Border Name="Z" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Z" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="242,455,690.6,65.4" Background="Black">
+
+            <Border Name="X" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="X" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="308,455,624.6,65.4" Background="Black">
+
+            <Border Name="C" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="C" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="374,455,558.6,65.4" Background="Black">
+
+            <Border Name="V" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="V" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="440,455,492.6,65.4" Background="Black">
+
+            <Border Name="B" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="B" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="506,455,426.6,65.4" Background="Black">
+
+            <Border Name="N" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="N" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="572,455,360.6,65.4" Background="Black">
+
+            <Border Name="M" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="M" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="638,455,294.6,65.4" Background="Black">
+
+            <Border Name="left_trik_duga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="&lt;" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="704,455,228.6,65.4" Background="Black">
+
+            <Border Name="right_trik_duga" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="&gt;" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="770,455,162.6,65.4" Background="Black">
+
+            <Border Name="pitanna" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="?" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="836,455,9.6,65.4" Background="Black">
+
+            <Border Name="shift2" BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Shift" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <!--<Grid Margin="10,510,888.6,10.4" Background="Black">
+
+            <Border  BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Q" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>-->
+        <Grid Margin="110,510,788.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Win" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="210,510,688.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Alt" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="310,510,294.6,10.4" Background="Black">
+
+            <Border Name="space" BorderBrush="White" BorderThickness="5" CornerRadius="9" Margin="0,0,0,-1">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Space" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="704,510,194.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Alt" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="804,510,94.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Win" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="10,510,888.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Ctrl" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid Margin="904,510,9.6,10.4" Background="Black">
+
+            <Border BorderBrush="White" BorderThickness="5" CornerRadius="9" Margin="0,0,0,-1">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Ctrl" Foreground="Red" FontSize="19"/>
+            </Border>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="10,146,0,0" VerticalAlignment="Top" Width="974" Background="Blue">
+            <StackPanel Name="Progress" Orientation="Horizontal" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="6" Background="Red">
+
+            </StackPanel>
+            <Label Name="txt_read" Content="" VerticalAlignment="Top" Height="50" FontSize="30" Margin="0,0,-1,0"/>
+        </Grid>
+        <Label Name="txt_write" Content="" Margin="10,196,0,0" VerticalAlignment="Top" Height="50" FontSize="30" HorizontalAlignment="Left" Width="974"/>
+        <Label Content="Dificult:" HorizontalAlignment="Left" Margin="622,1,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFFD0000"/>
+        <Label Name="dificult" Content="1" HorizontalAlignment="Left" Margin="699,1,0,0" VerticalAlignment="Top" Foreground="#FFFC0000" FontSize="20" RenderTransformOrigin="1.236,-0.709"/>
+        <Slider  Minimum="1" Maximum="74" Interval="1" Name="scrol_dificult" HorizontalAlignment="Left" Margin="750,10,0,0" VerticalAlignment="Top" Width="234" ValueChanged="scrol_dificult_ValueChanged" Foreground="#FF63B49B"/>
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Left" Margin="638,63,0,0" VerticalAlignment="Top" Width="143" Height="34" Foreground="#FF11FF02" Background="#FF919C0E" Click="Start_Click"/>
+        <Button x:Name="Stop" Content="Stop" HorizontalAlignment="Left" Margin="836,63,0,0" VerticalAlignment="Top" Width="143" Height="34" Foreground="#FFF60101" Background="#FF4E50F4" Click="Stop_Click"/>
+        <Label Content="Speed:" HorizontalAlignment="Left" Margin="5,1,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="20"/>
+        <Label x:Name="Speed" Content="0" HorizontalAlignment="Left" Margin="79,1,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="20"/>
+        <Label Content="chars/min" HorizontalAlignment="Left" Margin="142,0,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="20"/>
+        <Label Content="Fails:" HorizontalAlignment="Left" Margin="300,1,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="20"/>
+        <Label x:Name="Fails" Content="0" HorizontalAlignment="Left" Margin="374,1,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="20"/>
+        <CheckBox Name="registr" Content="Case Sensetive" HorizontalAlignment="Left" Margin="472,9,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+E:\WPF\Vokzal\Vokzal\bin\Debug\Vokzal.exe.config
+E:\WPF\Vokzal\Vokzal\bin\Debug\Vokzal.exe
+E:\WPF\Vokzal\Vokzal\bin\Debug\Vokzal.pdb
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.csproj.AssemblyReference.cache
+E:\WPF\Vokzal\Vokzal\obj\Debug\MainWindow.g.cs
+E:\WPF\Vokzal\Vokzal\obj\Debug\App.g.cs
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal_MarkupCompile.cache
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal_MarkupCompile.lref
+E:\WPF\Vokzal\Vokzal\obj\Debug\MainWindow.baml
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.g.resources
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.Properties.Resources.resources
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.csproj.GenerateResource.cache
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.csproj.CoreCompileInputs.cache
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.exe
+E:\WPF\Vokzal\Vokzal\obj\Debug\Vokzal.pdb

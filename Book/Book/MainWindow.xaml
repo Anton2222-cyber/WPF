@@ -1,0 +1,17 @@
+﻿<Window x:Class="Book.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.651,0.394">
+        <Button x:Name="Next" Content="&gt;Next" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="187" Height="50" Click="Next_Click"/>
+        <Button x:Name="Prev" Content="Prev&lt;" HorizontalAlignment="Left" Margin="10,123,0,0" VerticalAlignment="Top" Width="187" Height="50" Click="Prev_Click"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top" Width="238" Height="39" Click="button_Click"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" Width="187" Height="50" Click="Cancel_Click"/>
+        <TextBox x:Name="txt" Background="Yellow" HorizontalAlignment="Left" Height="228" Margin="253,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="531" Text="Росли́ни (Plantae), або зелені рослини (Viridiplantae) — царство живих організмів. Назва Viridiplantae була запропонована у 1981[1] році, щоб відрізнити представників царства від попереднього визначення рослин, які до того не утворювали монофілетичну групу. Також царство відоме під назвою Chlorobionta[2] або група Chlorophyta/Embryophyta.[3] Більшість членів царства були включені до царства Рослини (Plantae) в 1866 Ернстом Геккелем. Представники царства — автотрофні організми, для яких є характерною здатність до фотосинтезу та наявність щільної клітинної оболонки, яка утворена здебільшого целюлозою." FontSize="16" Foreground="#FF038EFF"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\bin\Debug\ComboBoxWithPicture.exe.config
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\bin\Debug\ComboBoxWithPicture.exe
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\bin\Debug\ComboBoxWithPicture.pdb
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.csproj.AssemblyReference.cache
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\MainWindow.g.cs
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\App.g.cs
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture_MarkupCompile.cache
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture_MarkupCompile.lref
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\MainWindow.baml
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.g.resources
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.Properties.Resources.resources
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.csproj.GenerateResource.cache
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.csproj.CoreCompileInputs.cache
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.exe
+E:\WPF\ComboBoxWithPicture\ComboBoxWithPicture\obj\Debug\ComboBoxWithPicture.pdb
